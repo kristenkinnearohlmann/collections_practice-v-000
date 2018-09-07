@@ -27,6 +27,7 @@ end
 def kesha_maker(array)
   return_kesha = []
   array.each do |item|
+    item[2] = "$"
     # item_update = item.split(//)
     # item_update[2] = "$"
     # return_kesha << item_update.join
