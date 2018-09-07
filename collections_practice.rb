@@ -25,14 +25,14 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  return_kesha = []
+  # return_kesha = []
   array.each do |item|
     item[2] = "$"
     # item_update = item.split(//)
     # item_update[2] = "$"
     # return_kesha << item_update.join
   end
-  return_kesha
+  # return_kesha
 end
 
 def find_a(array)
